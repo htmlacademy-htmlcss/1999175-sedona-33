@@ -1,0 +1,150 @@
+@font-face {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: url("styles/fonts/ptsans-400.woff2") format("woff2");
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 700;
+    src: url("styles/fonts/ptsans-700.woff2") format("woff2");
+    font-display: swap;
+  }
+
+  body {
+      font-family: "PT Sans", sans-serif;
+      font-size: 18px;
+      line-height: 21px;
+      color:#333;
+      background-color:#AEF4F4;
+  }
+  .page-header {
+    color: #000;
+    background: #ffffff;
+    font-weight: 700;
+  }
+  .navigation-link {
+    font-size: 20x;
+    line-height: 26px;
+    color:inherit;
+    text-decoration: none;
+  }
+  .main-page {
+    background-image: url("images/backgrounds/index-background.jpg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    text-align: center;
+  }
+  
+  .about-sedona {
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color:#000;
+  }
+  .advantages-preview {
+    font-size: 22px;
+    line-height: 36px;
+  }
+  .advantages-title {
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color:#000;
+  }
+  
+  .search-heotels-titles {
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color:#000;
+  }
+  .search-hotels-date {
+    font-size: 22px;
+    line-height: 26px;
+  }
+  .subcription {
+    background-image: url("images/backgrounds/background-submit.jpg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+  }
+  .subcription-title {
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color:#ffffff;
+  }
+  .subcription-info {
+    font-size: 22px;
+    line-height: 26px;
+    color:#ffffff;
+  }
+  .page-footer {
+    background-color:#ffffff;
+    color:#000;
+  }
+  
+.main-catolog {
+  background-image: url("images/backgrounds/catalog-background.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  line-height: 23px;
+  background-color:#fff;
+  }
+  .catalog-header-title {
+    font-size: 60px;
+    line-height: 78px;
+    color:#ffffff;
+    font-weight: 700;
+  }
+  .catalog-header-nav-link {
+    font-size: 16px;
+    line-height: 21px;
+    color:#ffffff;
+  }
+  .catalog-filters-title {
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 700;
+  }
+  .hotels-goup-finded {
+    font-size: 30px;
+    line-height: 39px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color:#000;
+  }
+  .hotel-card-link {
+    text-decoration: none;
+  }
+  .hotel-card-title {
+    font-size: 24px;
+    line-height: 31px;
+    font-weight: 700;
+    color:#000;
+  }
+  .subcription-catalog {
+    text-align:center;
+  }
+  .subcription-title-catalog {
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  .subcription-info-catalog {
+    font-size: 22px;
+    line-height: 26px;
+  }
+
+
+
+
+  
