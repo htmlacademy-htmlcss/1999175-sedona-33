@@ -50,13 +50,16 @@ html {
     margin:0 auto;
     font-weight: 700;
   }
+  .navigation-logo {
+    margin-left:70px;
+  }
   .navigation-list {
     display: flex;
-    justify-content: space-around;
+    justify-content:space-between;
     align-items: center;
     width: 445px;
     margin:0;
-    height:70px;
+    padding:20px 17px;
     list-style: none;
   }
   .header-button-list {
@@ -67,7 +70,7 @@ html {
     margin:0;
     margin-left:auto;
     list-style: none;
-    
+    margin-right:70px;
   }
   .navigation-link {
     font-size: 20x;
@@ -80,17 +83,13 @@ html {
   }
   .main-page {
     background-image: url("images/backgrounds/index-background.jpg");
-    background-size: 100% auto;
     background-repeat: no-repeat;
     text-align: center;
-  }
-  .background-main-container {
-    height:485px;
-    width: 1200px;
-  }
-  .page-container {
     width: 1200px;
     margin: 0 auto;
+  }
+  .background-main-container {
+    min-height:433px;
   }
   .main-page-image {
     display: block;
@@ -102,7 +101,6 @@ html {
     margin:0 auto;
     background-color:#fff;
     height:282px;
-    width: 1200px;
   }
 
   .about-sedona {
@@ -126,7 +124,6 @@ html {
   .advantages-list {
     margin:0 auto;
     list-style: none;
-    width: 1200px;
     padding:0;
   }
   .true-city-cantainer {
@@ -145,10 +142,8 @@ html {
   .second-row-container {
     background: rgba(131, 179, 211, 0.12);
     display:flex;
-    width: 1200px;
     margin:0 auto;
     min-height: 384px;
-    
   }
   .home-container {
     display:flex;
@@ -176,6 +171,7 @@ html {
     margin:0 auto;
     width:1200px;
     background-color:#83B3D3;
+    color: #fff;
   }
   .devil-container-smaller {
     display: flex;
@@ -186,7 +182,6 @@ html {
   .third-row-container {
     background: rgba(131, 179, 211, 0.12);
     display:flex;
-    width: 1200px;
     margin:0 auto;
     min-height: 384px;
   }
@@ -214,7 +209,6 @@ html {
     flex-direction: column;
     justify-content: center;
     margin: 0 auto;
-    width: 1200px;
     min-height: 417px;
     background-color: #fff;
     
@@ -276,17 +270,17 @@ html {
   
 .main-catolog {
   background-image: url("images/backgrounds/catalog-background.jpg");
-  background-size: 100% auto;
   background-repeat: no-repeat;
   line-height: 23px;
   background-color: #E5E5E5;
+  width: 1200px;
+  margin:0 auto;
   
   }
   .filters-container {
     display: flex;
     justify-content: space-between;
     margin:0 71px;
-    width: 1200px;
 
   }
   .catalog-filters-group {
@@ -366,8 +360,7 @@ html {
   .filtered-container {
     display:flex;
     justify-content: space-between;
-    width: 1200px;
-    margin:50px 71px;
+    margin:0 71px;
     padding:0;
   }
   .hotels {
@@ -402,6 +395,7 @@ html {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: flex-start;
     width: 340px;
     padding: 20px;
     min-height:440px;
@@ -417,11 +411,16 @@ html {
   }
   .type-price {
     display:flex;
-    justify-content: space-between;
+  }
+  .hotel-card-price {
+    width:143px;
+    margin-left:25px;
+  }
+  .hotel-card-type {
+    width: 133px;
   }
   .buttons {
     display: flex;
-    justify-content: space-between;
   }
   .hotel-card-button {
     display: flex;
@@ -450,6 +449,7 @@ html {
     color:#fff;
     font-weight: 700;
     text-decoration: none;
+    margin-left: 25px;
   }
   .hotels-card-button {
     display:flex;
@@ -468,7 +468,6 @@ html {
   }
   .rate {
     display:flex;
-    justify-content: space-between;
   }
   .hotel-card-rate {
     display: flex;
@@ -478,10 +477,10 @@ html {
     background-color:#F2F2F2;
     border-radius: 4px;
     height: 37px;
+    margin-left: 50px;
   }
   .pagination-container {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     margin:0;
     padding:0;
@@ -490,7 +489,6 @@ html {
   }
   .pagination {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     list-style: none;
