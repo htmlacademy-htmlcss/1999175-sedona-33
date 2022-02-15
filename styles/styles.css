@@ -399,7 +399,7 @@ html {
   .buttons {
     display: flex;
   }
-  .hotel-card-button {
+  .more-info-button {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -413,7 +413,7 @@ html {
     font-weight: 700;
     text-decoration: none;
   }
-  .hotel-card-button-2 {
+  .favorites-button {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -428,7 +428,7 @@ html {
     text-decoration: none;
     margin-left: 25px;
   }
-  .hotels-card-button {
+  .more-cards-button {
     display:flex;
     align-items: center;
     justify-content: center;
