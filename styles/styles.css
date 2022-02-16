@@ -361,14 +361,14 @@ html {
     align-self: center;
   }
   .hotel-card-list {
-    display:flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    margin:50px 71px;
-    width: 1056px;
+    display:grid;
+    grid-template-columns: 340px 340px 340px;
+    column-gap: 18px;
+    row-gap:10px;
+    margin:53px 71px;
+    margin-bottom: 64px;
   }
   .hotel-card {
-    flex:1;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -376,7 +376,7 @@ html {
     width: 340px;
     padding: 20px;
     min-height:440px;
-  }
+  } 
   .hotel-card-link {
     text-decoration: none;
   }
