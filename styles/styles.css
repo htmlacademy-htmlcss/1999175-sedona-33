@@ -444,6 +444,8 @@ html {
   }
   .rate {
     display:flex;
+    width: 300px;
+    
   }
   .hotel-card-rate {
     display: flex;
@@ -453,7 +455,7 @@ html {
     background-color:#F2F2F2;
     border-radius: 4px;
     height: 37px;
-    margin-left: 50px;
+    margin-left: auto;
   }
   .pagination-container {
     display: flex;
