@@ -86,7 +86,7 @@ html {
   }
   .main:focus {
     background: #615048;
-    border: 3px solid #83B3D3;
+    outline: 3px solid #83B3D3;
   }
   .navigation-link:active {
     opacity:0.3;
@@ -348,7 +348,7 @@ html {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    min-width: 107px;
+    min-width: 126px;
     list-style: none;
     height: 23px;
     margin-top:51px;
@@ -362,15 +362,17 @@ html {
   .social-icon:hover {
     fill:#68A2CA;
   }
-  .social-icon:focus {
+  .social-link:focus {
     display:flex;
     width: 40px;
-    height:40px;
-    padding:8px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
     fill:#68A2CA;
     border: 3px solid #83B3D3;
     box-sizing: border-box;
     border-radius: 10px;
+    padding:10px;
   }
   .social-icon:active {
     fill:#D2E3EF;
@@ -411,12 +413,16 @@ html {
   .footer-icon:hover {
     fill:#756257;
   }
-  .footer-icon:focus {
+  .social-link-main-page:focus {
+    display: flex;
+    width: 160px;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
     fill:#756257;
     border: 3px solid #83B3D3;
     box-sizing: border-box;
     border-radius: 10px;
-    padding:10px;
   }
   .footer-icon:active {
     fill:#d6d0cc;
@@ -732,7 +738,7 @@ html {
   }
   .button-newsletter:focus {
     background-color:#68A2CA;
-    border: 3px solid #756257;
+    outline: 3px solid #756257;
   }
   .button-newsletter:active {
     color:#95BEDA;
@@ -751,13 +757,18 @@ html {
     border-radius: 10px 0px 0px 10px;
     padding:0;
     border:0;
+    padding-left:22px;
   }
   .email-feild:hover {
     background-color: #E6E6E6;
   }
   .email-feild:focus {
     background: #E6E6E6;
-    border: 3px solid #83B3D3;
+    outline: 3px solid #83B3D3;
+  }
+  .email-feild:invalid {
+    background:#fff;
+    outline: 2px solid #FF5757;
   }
   .footer-contacts-phone {
     font-size: 40px;
