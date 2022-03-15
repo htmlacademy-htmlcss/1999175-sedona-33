@@ -74,30 +74,20 @@ html {
   }
   .navigation-link:hover {
     color:#756257;
-  }
-  .favourite-icon:hover {
     fill:#756257;
-  }
-  .search-icon:hover {
-    fill:#756257;
-  }
-  .main:hover {
-    background: #615048;
-  }
-  .main:focus {
-    background: #615048;
-    outline: 3px solid #83B3D3;
   }
   .navigation-link:active {
     opacity:0.3;
-  }
-  .favourite-icon:active {
     fill:#d6d0cc;
   }
-  .search-icon:active {
-    fill:#d6d0cc;
+  .main-button:hover {
+    background: #615048;
   }
-  .main:active {
+  .main-button:focus {
+    background: #615048;
+    outline: 3px solid #83B3D3;
+  }
+  .main-button:active {
     color:#90847F;
   }
   .header-button:not(:last-child) {
@@ -255,7 +245,7 @@ html {
   .order {
     margin:30px auto;
   }
-  .advantagestitle {
+  .advantages--title {
     margin-bottom: 0;
     margin-top: 97px;
   }
@@ -348,7 +338,7 @@ html {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    min-width: 126px;
+    min-width: 138px;
     list-style: none;
     height: 23px;
     margin-top:51px;
@@ -362,17 +352,19 @@ html {
   .social-icon:hover {
     fill:#68A2CA;
   }
-  .social-link:focus {
-    display:flex;
-    width: 40px;
-    height: 40px;
-    align-items: center;
+  .social-link {
+    display: flex;
     justify-content: center;
+    align-items: center;
+    width:40px;
+    height: 40px;
+  }
+  .social-link:focus {
     fill:#68A2CA;
-    border: 3px solid #83B3D3;
-    box-sizing: border-box;
+    outline: 3px solid #83B3D3;
     border-radius: 10px;
-    padding:10px;
+    box-sizing: border-box;
+
   }
   .social-icon:active {
     fill:#D2E3EF;
@@ -387,7 +379,7 @@ html {
     color:#756257;
   }
   .footer-contacts-phone:focus {
-    border: 3px solid #83B3D3;
+    outline: 3px solid #83B3D3;
     box-sizing: border-box;
     border-radius: 10px;
     padding:15px;
@@ -396,32 +388,24 @@ html {
     color:#d6d0cc;
   }
   .links {
-    position: relative;
     height: 120px;
     width: 187px;
   }
   .social-link-main-page {
-    position: absolute;
-    left: 0;
-    right: 0;
-    top:0;
-    bottom: 0;
-    margin-top:43px;
-    width: 115px;
-    height: 33px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:21px;
+    width: 160px;
+    height: 70px;
   }
   .footer-icon:hover {
     fill:#756257;
   }
   .social-link-main-page:focus {
-    display: flex;
-    width: 160px;
-    height: 70px;
-    align-items: center;
-    justify-content: center;
     fill:#756257;
-    border: 3px solid #83B3D3;
-    box-sizing: border-box;
+    outline: 3px solid #83B3D3;
+
     border-radius: 10px;
   }
   .footer-icon:active {
