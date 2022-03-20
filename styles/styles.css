@@ -1120,6 +1120,247 @@ html {
     text-decoration: none;
     color:#000;
   }
+  .modal-container {
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background: rgba(242, 242, 242, 0.8);
+  }
+  .modal-arrival {
+    position: relative;
+    margin:auto;
+    width: 715px;
+    height: 561px;
+    background: #FFFFFF;
+    box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.15);
+    border-radius: 30px;
+  }
+  .close-button {
+    position: absolute;
+    background-color:#F2F2F2;
+    width: 53px;
+    height: 53px;
+    border-radius: 50%;
+    top:54px;
+    right:70px;
+    border-style: none;
+  }
+  .close-icon {
+    position: absolute;
+    left:20px;
+    top:20px;
+    fill:black;
+  }
+  .modal-title {
+    position: absolute;
+    font-family: 'PT Sans';
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    text-transform: uppercase;
+    color: #000000;
+    width: 500px;
+    height: 67px;
+    margin-left:68px;
+    margin-top:62px;
+  }
+  .dates {
+    position: absolute;
+    margin-top:161px;
+    margin-left:68px;
+  }
+  .check-container {
+    display: flex;
+    position: relative;
+    margin-top:11px;
+  }
+  .form-info {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 155px;
+    height: 50px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 40px;
+  }
+  .form {
+    width: 420px;
+    height: 50px;
+    background: #F2F2F2;
+    border-radius: 4px;
+    border-style: none;
+  }
+  .people {
+    display:flex;
+    margin-top:11px;
+  }
+  .people-amount {
+    display:flex;
+  }
+  .children-amount {
+  display:flex;
+  align-items: center;
+  width: 238px;
+  height:50px;
+  margin-left:54px;
+  }
+  .form-info-children {
+    width:54px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 40px;
+}
+  .number {
+    width:133px;
+    height:50px;
+    background: #F2F2F2;
+    border-radius: 4px;
+    border:none;
+  }
+  .tolltip-area {
+    position: relative;
+    display: flex;
+    width: 216px;
+    height: 110px;
+    background: #333333;
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    color:#fff;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    align-items: center;
+    justify-content: center;
+    padding-left:22px;
+    padding-top:15px;
+    padding-right: 18px;
+    padding-bottom: 18px;
+    margin-left:282px;
+    z-index: 1;
+    display: non;
+  }
+  .tolltip-toggle {
+    background-color:#83B3D3;
+    width: 25px;
+    height:25px;
+    border-style: none;
+    border-radius: 50%;
+    margin-right:18px;
+  }
+  .tooltip-triangle {
+    position: absolute;
+    top:-15px;
+  }
+  .more-dates-button {
+    position:absolute;
+    bottom:70px;
+    left:70px;
+    width: 579px;
+    height: 60px;
+    background: #83B3D3;
+    border-radius: 10px;
+    text-transform: uppercase;
+    color:#FFFFFF;
+    border-style: none;
+    font-size: 20px;
+    line-height: 40px;
+  }
+  .calendar {
+    position: absolute;
+    right:19px;
+    top:18px;
+  }
+  .data-text {
+    position:absolute;
+    left:174px;
+    top:5px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 40px;
+  }
+  .text-help {
+    width: 420px;
+    height: 29px;
+    margin-left:155px;
+  }
+  .non-liquid {
+    color:#FF5757;
+  }
+  .numeric {
+    position: absolute;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 40px;
+    left:62px;
+    top:5px;
+  }
+  .number-area {
+    position:relative;
+  }
+  .minus-icon {
+    position:absolute;
+    fill:#b3b3b3;
+    left:19px;
+    top:24px;
+  }
+  .plus-icon {
+    position:absolute;
+    fill:#b3b3b3;
+    right:19px;
+    top:18px;
+  }
+  .close-button:hover {
+    background-color: #E6E6E6;
+  }
+  .close-button:focus {
+    outline: 3px solid #83B3D3;
+    background-color: #E6E6E6;
+  }
+  .close-button:active .close-icon  {
+    fill:#a1a1a1;
+  }
+  .form:hover {
+    background: #E6E6E6;
+  }
+  .form:focus {
+    background: #E6E6E6;
+    outline: 3px solid #83B3D3;
+  }
+  .form:active {
+    background: #FFFFFF;
+    outline: 2px solid #000000;
+    box-sizing: border-box;
+  }
+  .sign:hover {
+    fill:#000;
+  }
+  .sign:focus {
+    outline: 3px solid #83B3D3;
+  }
+  .sign:active {
+    fill:#ccc;
+  }
+  .more-dates-button:hover {
+    background: #68A2CA;
+  }
+  .more-dates-button:focus {
+    background: #68A2CA;
+    outline: 3px solid #756257;
+  }
+  .more-dates-button:active {
+    opacity:0.6;
+  }
+  .tolltip-toggle:hover + .tolltip-area,
+  .tolltip-toggle:focus + .tolltip-area {
+     display: block;
+   }
+
+
 
 
 
