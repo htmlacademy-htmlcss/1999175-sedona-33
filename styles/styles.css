@@ -2,7 +2,7 @@
     font-family: "PT Sans";
     font-style: normal;
     font-weight: 400;
-    src: url("styles/fonts/ptsans-400.woff2") format("woff2");
+    src: url("fonts/ptsans-400.woff2") format("woff2");
     font-display: swap;
   }
 
@@ -10,7 +10,7 @@
     font-family: "PT Sans";
     font-style: normal;
     font-weight: 700;
-    src: url("styles/fonts/ptsans-700.woff2") format("woff2");
+    src: url("fonts/ptsans-700.woff2") format("woff2");
     font-display: swap;
   }
 html {
@@ -318,7 +318,7 @@ html {
     font-size: 22px;
     line-height: 26px;
     color:#ffffff;
-    margin:0;
+    margin:0 auto 46px;
   }
   .page-footer {
     display:flex;
@@ -429,6 +429,7 @@ html {
     justify-content: space-between;
     width:600px;
     margin:0;
+    margin-left:100px;
     border: 0px;
     padding: 0;
   }
@@ -467,6 +468,8 @@ html {
   .range-wrapper-inputs {
     display: flex;
     height: 52px;
+    margin-top:34px;
+    margin-bottom:32px;
   }
   .catalog-filter-area {
     position: relative;
@@ -541,8 +544,9 @@ html {
   .button-container {
     display:flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    margin-bottom:20px;
   }
   .filters-button {
     Width:160px;
@@ -658,6 +662,12 @@ html {
     fill:#9ebad3;
     color:#9ebad3;
   }
+  .catalog-filters-item {
+    margin-bottom:13px;
+  }
+  .catalog-filters-item:last-of-type {
+    margin-bottom: 83px;
+  }
   .parameters {
     position: relative;
     display: block;
@@ -671,6 +681,13 @@ html {
     border-radius: 4px;
     left:0;
   }
+  .checked-icon {
+    position: absolute;
+    top:5px;
+    left:4px;
+    display:none;
+    z-index: 1;
+  }
   .parameters:hover .control-mark {
     background-color:#becfdf;
   }
@@ -682,11 +699,8 @@ html {
   .parameters:active .control-mark {
     background-color:#8ca5c1;
   }
-  .control-input[type="checkbox"]:checked + .control-mark {
-    position:absolute;
-    background-image: url(/styles/images/Checked.svg);
-    background-position:center ;
-    background-repeat: no-repeat;
+  .control-input[type="checkbox"]:checked +.checked-icon {
+    display:block;
 }
 .control-input[type="radio"] + .control-mark {
   border-radius: 50%;
@@ -713,8 +727,9 @@ html {
 }
   .catalog-filters-group {
     padding: 0;
-    margin:0;
+    margin-right:67px;
   }
+
   .catalog-filters-title {
     padding: 0;
     margin:0;
@@ -731,7 +746,6 @@ html {
   }
   .filtered-container {
     display:flex;
-    justify-content: space-between;
     align-items: center;
     margin:0 71px;
     padding:0;
@@ -747,6 +761,7 @@ html {
     border-radius: 4px;
     align-self: center;
     padding-left: 19px;
+    margin-left:179px;
   }
   .hotels-group-parameters:hover,
   .hotels-group-parameters:focus {
@@ -764,12 +779,13 @@ html {
     border-radius: 4px;
   }
   .hotels-group-finded {
+    display:flex;
     margin-top:50px;
     margin-bottom: 56px;
     font-size: 30px;
     line-height: 39px;
     font-weight: 700;
-    width:500px;
+    width:350px;
     text-transform: uppercase;
     color:#000;
     align-self: center;
@@ -778,6 +794,7 @@ html {
     display:flex;
     justify-content: space-between;
     width: 172px;
+    margin-left:70px;
   }
   .hotels-view-button {
     display: flex;
@@ -801,7 +818,7 @@ html {
     grid-template-columns: 340px 340px 340px;
     column-gap: 18px;
     row-gap:10px;
-    margin:53px 71px 64px;
+    margin:0px 71px 64px;
   }
   .hotel-card {
     display: flex;
@@ -1091,7 +1108,7 @@ html {
     justify-content: center;
     align-items: center;
     margin-top:0;
-    margin-bottom:141px;
+    margin-bottom:94px;
   }
   .email-feild {
     display:flex;
@@ -1308,12 +1325,12 @@ html {
     fill:#b3b3b3;
   }
   .minus-icon {
-    fill:#b3b3b3;
+    fill:#a9a9a9;
     margin-bottom: 6px;
   }
   .plus-icon {
     position:absolute;
-    fill:#b3b3b3;
+    fill:#a9a9a9;
     right:6px;
     top:6px;
   }
