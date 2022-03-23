@@ -40,6 +40,7 @@ html {
    }
 
   .page-header {
+    height: 70px;
     color: #000;
   }
   .navigation {
@@ -117,10 +118,14 @@ html {
     margin-top:15px;
   }
   .navigation-link {
-    font-size: 20x;
+    font-size: 20px;
     line-height: 26px;
     color:inherit;
     text-decoration: none;
+  }
+  .current-link {
+    padding-bottom: 18px;
+    border-bottom:2px solid #756257;
   }
   .catalog-button {
     display:flex;
@@ -133,6 +138,8 @@ html {
     text-decoration: none;
     background: #756257;
     border-radius: 4px;
+    font-size: 16px;
+    line-height: 20px;
   }
   .main-container {
     flex-grow:1;
@@ -145,7 +152,14 @@ html {
     margin: 0 auto;
   }
   .background-main-container {
+    position: relative;
     min-height:433px;
+  }
+  .vector-main {
+    position: absolute;
+    z-index: 1;
+    bottom:0;
+    left:0;
   }
   .main-page-image {
     display: block;
@@ -175,6 +189,8 @@ html {
     margin-bottom:80px;
   }
   .advantages-title {
+    margin-top:97px;
+    margin-bottom:0;
     font-size: 24px;
     line-height: 28px;
     font-weight: 700;
@@ -246,6 +262,8 @@ html {
     margin:30px auto;
   }
   .advantages--title {
+    font-size: 24px;
+    line-height: 28px;
     margin-bottom: 0;
     margin-top: 97px;
   }
@@ -753,6 +771,9 @@ html {
   .hotels {
     background-color: #fff;
   }
+  .select-container {
+    position: relative;
+  }
   .hotels-group-parameters {
     width: 287px;
     height: 48px;
@@ -762,6 +783,12 @@ html {
     align-self: center;
     padding-left: 19px;
     margin-left:179px;
+    appearance: none;
+  }
+  .arrow-down-icon {
+    position: absolute;
+    right:21px;
+    top:20px;
   }
   .hotels-group-parameters:hover,
   .hotels-group-parameters:focus {
@@ -960,6 +987,17 @@ html {
     font-size: 20px;
     line-height: 26px;
   }
+  .more-cards-button:hover {
+    background: #68A2CA;
+  }
+  .more-cards-button:focus {
+    background: #68A2CA;
+    outline: 3px solid #756257;
+  }
+  .more-cards-button:active {
+    background: #68A2CA;
+    color:#95beda;
+  }
   .rate {
     display:flex;
     width: 300px;
@@ -974,6 +1012,9 @@ html {
     border-radius: 4px;
     height: 37px;
     margin-left: auto;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 21px;
   }
   .line {
     width: 1055px;
@@ -1052,6 +1093,7 @@ html {
     box-sizing: border-box;
     border-radius: 4px;
     margin-right:0;
+    appearance: none;
   }
   .subcription-catalog {
     display: flex;
@@ -1144,7 +1186,8 @@ html {
     width: 100%;
     height: 100%;
     background: rgba(242, 242, 242, 0.8);
-    display:none;
+    display:no;
+    z-index: 2;
   }
   .modal-arrival {
     position: relative;
@@ -1205,11 +1248,15 @@ html {
     line-height: 40px;
   }
   .form {
-    width: 420px;
+    width: 401px;
     height: 50px;
     background: #F2F2F2;
     border-radius: 4px;
     border-style: none;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 40px;
+    padding-left:19px;
   }
   .people {
     display:flex;
@@ -1288,20 +1335,14 @@ html {
     border-style: none;
     font-size: 20px;
     line-height: 40px;
+    font-weight: 700;
   }
   .calendar {
     position: absolute;
     right:19px;
     top:18px;
   }
-  .data-text {
-    position:absolute;
-    left:174px;
-    top:5px;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 40px;
-  }
+
   .text-help {
     width: 420px;
     height: 29px;
