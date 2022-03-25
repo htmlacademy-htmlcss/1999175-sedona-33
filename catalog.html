@@ -22,7 +22,7 @@
           <a class="navigation-link" href="about.html"> О Cедоне</a>
         </li>
         <li class="navigation-item">
-          <a class="navigation-link current" href="catalog.html"> Гостиницы</a>
+          <a class="navigation-link current-link" href="catalog.html"> Гостиницы</a>
         </li>
       </ul>
       <ul class="header-button-list">
@@ -203,11 +203,19 @@
       <div class="filtered-container">
         <h2 class="visually-hidden">Отфильтрованный список гостиниц</h2>
         <p class="hotels-group-finded">НАЙДЕНО ГОСТИНИЦ:38</p>
-        <select class="hotels-group-parameters" aria-label="Сортировка">
-          <option value="cheap">Сначала дешёвые</option>
-          <option value="expensive">Сначала дорогие</option>
-          <option value="popular">Сначала популярные</option>
-        </select>
+        <div class="select-container">
+          <select class="hotels-group-parameters" aria-label="Сортировка">
+            <option value="cheap">Сначала дешёвые</option>
+            <option value="expensive">Сначала дорогие</option>
+            <option value="popular">Сначала популярные</option>
+          </select>
+          <svg class="arrow-down-icon" width="12" height="7" viewBox="0 0 12 7" fill="#b3b3b3"
+            xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M6.6 6.7001L11.7 1.4001C12 1.1001 12 0.500098 11.7 0.200098C11.4 -0.0999023 10.8 -0.0999023 10.5 0.200098L6 4.9001L1.5 0.200098C1.2 -0.0999023 0.6 -0.0999023 0.3 0.200098C0.1 0.300098 0 0.600098 0 0.800098C0 1.0001 0.1 1.2001 0.3 1.4001L5.4 6.7001C5.7 7.1001 6.3 7.1001 6.6 6.7001Z"
+              fill="#b3b3b3" />
+          </svg>
+        </div>
         <div class="view-container">
           <a class="hotels-view-button current-view" href="#">
             <span class="visually-hidden">Мелкие значки</span>
@@ -387,6 +395,12 @@
               <option value="12">12</option>
               <option value="24">24</option>
             </select>
+            <svg class="arrow-down-icon" width="12" height="7" viewBox="0 0 12 7" fill="#b3b3b3"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M6.6 6.7001L11.7 1.4001C12 1.1001 12 0.500098 11.7 0.200098C11.4 -0.0999023 10.8 -0.0999023 10.5 0.200098L6 4.9001L1.5 0.200098C1.2 -0.0999023 0.6 -0.0999023 0.3 0.200098C0.1 0.300098 0 0.600098 0 0.800098C0 1.0001 0.1 1.2001 0.3 1.4001L5.4 6.7001C5.7 7.1001 6.3 7.1001 6.6 6.7001Z"
+                fill="#b3b3b3" />
+            </svg>
           </div>
         </div>
       </div>
